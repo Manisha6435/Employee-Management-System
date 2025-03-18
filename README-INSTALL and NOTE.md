@@ -7,7 +7,9 @@ password:admin123
 
 ## **1. Install XAMPP**  
 - Download and install **XAMPP** from the [official website](https://www.apachefriends.org/).  
-- Start **Apache** and **MySQL** from the **XAMPP Control Panel**.  
+- Start **Apache** and **MySQL** from the **XAMPP Control Panel**.
+  ![image](https://github.com/user-attachments/assets/f354f4c5-4bef-4f7b-a8e5-73086cec602e)
+
 
 ## **2. Move Project Files to XAMPP Directory**  
 - Copy your **Employee Management System** project folder.  
