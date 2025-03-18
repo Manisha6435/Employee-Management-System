@@ -1,0 +1,315 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Login Page */
+.login-page {
+    background-image: url('https://images.pexels.com/photos/5716031/pexels-photo-5716031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+/* Body Styling */
+body {
+    background: url('https://images.pexels.com/photos/5716031/pexels-photo-5716031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Login Container */
+.login-container {
+    width: 40%;
+    margin: 10% auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8); /* Transparent White */
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Login Heading */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Login Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Centering Form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+/* Dashboard */
+.dashboard-page {
+    background-image: url('https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?cs=srgb&dl=pexels-fauxels-3184360.jpg&fm=jpg');
+}
+
+.welcome-box {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+/* Buttons */
+.button-group {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Colors */
+.add-btn {
+    background: linear-gradient(45deg, #4CAF50, #45a049);
+    color: white;
+}
+
+.view-btn {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+}
+
+.logout-btn {
+    background: linear-gradient(45deg, #dc3545, #b52a37);
+    color: white;
+}
+
+/* Button Hover Effects */
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+.back-btn {
+    background-color: #3498DB; /* Bright blue */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.back-btn:hover {
+    background-color: #217DBB;
+    transform: scale(1.05);
+}
+
+
+/* Stylish Handwriting Text */
+.welcome-text {
+    font-family: 'Dancing Script', cursive; /* Stylish handwriting font */
+    font-size: 50px;
+    font-weight: bold;
+    color: #222222; /* Dark brown, like handwriting */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: inline-block;
+    background-color:linear-gradient(135deg, #ff9966, #ff5e62); /* Light yellow sticky note effect */
+    border-radius: 10px;
+}
+
+
+/* View Employees */
+.view-page {
+    background-image: url('https://images.yourstory.com/cs/21/0a385fc03e6011e999df3d1594bbde2c/CoverSeptember-021-1696320748254.png?mode=crop&crop=faces&ar=16%3A9&format=auto&w=1920&q=75');
+}
+/* Employee List Section - Heading & Table Connected */
+.employee-list-container {
+    width: 90%;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9); /* Light background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Employee List Heading */
+.employee-list-heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #8B4513;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 0;
+    padding: 15px;
+}
+
+/* Employee Table */
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: transparent;
+border: 2px solid #333; 
+}
+
+.employee-table th, .employee-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+border: 1px solid #333;
+}
+
+.employee-table th {
+    background: #28a745;
+    color: white;
+}
+
+.employee-table tr:hover {
+    background: #f1f1f1;
+}
+
+/* Buttons */
+.edit-btn, .delete-btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.edit-btn { background: #007bff; }
+.delete-btn { background: #dc3545; }
+
+.edit-btn:hover { background: #0056b3; }
+.delete-btn:hover { background: #b32d2d; }
+
+
+
+/* Add & Edit Employee */
+.form-page {
+    background-image: url('https://st2.depositphotos.com/3591429/10365/i/450/depositphotos_103657430-stock-photo-business-team-discussing.jpg');
+}
+/* Form Box Styling */
+.form-box {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Form Inputs */
+.form-box input, .form-box button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-box button {
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.form-box button:hover {
+    background: #218838;
+}
+/* Broaden Add Employee Form */
+.form-box {
+    width: 700px;
+}
+.edit-page {
+    background-image: url('https://blog.attendancebot.com/wp-content/uploads/2021/01/write-593333_1920.jpg');
+}
+/* Center the form and add a soft background */
+.edit-employee-form {
+    background: rgba(255, 255, 255, 0.85); /* Semi-transparent */
+    backdrop-filter: blur(10px); /* Glass effect */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add focus effect */
+input:focus {
+    border-color: #ffcc00;
+    box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.5);
+}
+
+/* Style the "Update" button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #FFB300, #FF8C00);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background: #D68600;
+    transform: scale(1.05);
+}
+
