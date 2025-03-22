@@ -27,6 +27,6 @@ A responsive Employee Management System built using **PHP, XAMPP, Bootstrap & My
    git clone https://github.com/Manisha6435/Employee-Management-System.git
 2.**Import the database:**
 ✔ Open XAMPP, start Apache & MySQL
-✔ Import database.sql in phpMyAdmin
+✔ Import database.sql in phpMyAdmin            
 3.**Run the project:**
 ✔ Open localhost/ems in the browse
